@@ -13,7 +13,7 @@
 - shell
 - radix  |
 - bucket |
-
+//
 - merge | -------> complexo, mas baixa complexidade
 - quick |        
 
