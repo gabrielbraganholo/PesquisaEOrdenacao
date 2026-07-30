@@ -37,8 +37,6 @@
 - **Search / Find**: buscar, localizar ou pesquisar um item.
 - **Retrieve**: recuperar informações com base em relevância, como ocorre em mecanismos de busca (ex.: Google).
 
----
-
 ## Bubble Sort × Comb Sort
 
 - **Bubble Sort**
