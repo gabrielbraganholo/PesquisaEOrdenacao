@@ -18,7 +18,12 @@
 - Complexidade de um algorítmo: é o esforço computacional de um alorítmo, ou seja, quanto de recursos ele aloca para realizar suas tarefas
   - alta: mais esforço
   - baixa: menos esforço
-  - Notação Big O: 
+  - Notação Big O (em ordem de cmplexidade crescente)
+    - O(n!) -> fatorial
+    - o(n^x) -> exponencial
+    - O(log n + n)
+    - O(n) -> linear
+    - O(log n) -> logarítmico (árvores)
 
 ## Como Medir a Complexidade
 
@@ -27,10 +32,25 @@
 | Quantidade de comparações | Quantidade de comparações |
 | + | — |
 | Quantidade de trocas | — |
+## Tipos de Busca
 
-## Tipos de busca
-search / find: buscar, localizar, pesquisar
-retrieve: buscar com relevância -> busca do google
+- **Search / Find**: buscar, localizar ou pesquisar um item.
+- **Retrieve**: recuperar informações com base em relevância, como ocorre em mecanismos de busca (ex.: Google).
+
+---
+
+## Bubble Sort × Comb Sort
+
+- **Bubble Sort**
+  - Algoritmo **estável**.
+  - Mantém a ordem relativa de elementos com valores iguais.
+
+- **Comb Sort**
+  - Algoritmo **instável**.
+  - Não garante a ordem relativa entre elementos iguais.
+  - Em compensação, costuma ser mais eficiente que o Bubble Sort em muitos casos.
+
+> **Observação:** um algoritmo estável não é necessariamente melhor. A escolha depende do problema e dos requisitos da aplicação.
 
 
 ------
