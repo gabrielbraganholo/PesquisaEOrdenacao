@@ -1,1 +1,1 @@
-Escalabilidade = capacidade de um sistema crescer e absorver um aumento de demanda mantendo a estabilidade e a performance 
+Escalabilidade = capacidade de um sistema crescer e absorver um aumento de demanda mantendo a estabilidade e a performance
