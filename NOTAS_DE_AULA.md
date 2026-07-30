@@ -14,12 +14,26 @@
 - Por que ordenar?
   - Para otimizar a busca ou pesquisa
 - Pesquisar: localizar ou bscar um dado detro de uma estrutura via alguma chave
-- Recuperar:
+  - Recuperar: localizar ou buscar dados com relevância (semântica ou significado)
+- Complexidade de um algorítmo: é o esforço computacional de um alorítmo, ou seja, quanto de recursos ele aloca para realizar suas tarefas
+  - alta: mais esforço
+  - baixa: menos esforço
+  - Notação Big O: 
+
+## Como Medir a Complexidade
+
+| Ordenação | Pesquisa |
+|------------|-----------|
+| Quantidade de comparações | Quantidade de comparações |
+| + | — |
+| Quantidade de trocas | — |
 
 ## Tipos de busca
 search / find: buscar, localizar, pesquisar
 retrieve: buscar com relevância -> busca do google
 
+
+------
 
 # 27/07
 
@@ -32,7 +46,6 @@ retrieve: buscar com relevância -> busca do google
 - Permite realizar modificações com o sistema em funcionamento.
 - Consiste em adicionar mais máquinas/servidores para distribuir a carga.
 
----
 
 ## Algoritmos de Ordenação (Sort)
 
@@ -54,7 +67,6 @@ retrieve: buscar com relevância -> busca do google
   - Mais complexo de implementar, porém possui baixa complexidade.
 - Quick Sort
 
----
 
 ## Complexidade
 
