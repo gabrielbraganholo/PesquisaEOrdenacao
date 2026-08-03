@@ -121,7 +121,7 @@ Eficiente X Eficaz
   - Eficaz tem relação com o tempo
 
 Qual o melhor algorítmo de ordenação?
-  Depende:
+  - Depende:
     - Do tamanho da estrutura 
     - Do quanto já está ordenado
 
