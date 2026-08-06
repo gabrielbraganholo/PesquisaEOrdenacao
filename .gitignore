@@ -1,0 +1,110 @@
+# ========================================
+# VS Code
+# ========================================
+.vscode/
+.history/
+
+# ========================================
+# Java
+# ========================================
+*.class
+*.jar
+*.war
+*.ear
+*.jmod
+
+bin/
+build/
+out/
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# NetBeans
+nbproject/private/
+dist/
+nbbuild/
+
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ========================================
+# C / C++
+# ========================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+Makefile
+
+# ========================================
+# SQL
+# ========================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ========================================
+# Logs
+# ========================================
+*.log
+
+# ========================================
+# Sistema Operacional
+# ========================================
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Arquivos temporários
+# ========================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

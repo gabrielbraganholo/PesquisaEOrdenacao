@@ -1,3 +1,30 @@
+# 06/08
+
+## Padrão de Desenvolvimento
+
+- Ideia de MVC
+- Documentação
+
+## Benchmark
+
+- Medições:
+  - Tempo
+  - Complexidade:
+    - Quantidade de Comparações
+    - Quantidade de Tocas
+
+### Exemplo de Medição de Tempo
+
+```python
+tempoInicio = time.time()
+# rotina 1
+tempoFim = time.time()
+print("Tempo da rotina 1: ", (tempoFim - tempoInicio) , "s")
+```
+
+## 
+
+
 # 03/08
 
 ## MVC
