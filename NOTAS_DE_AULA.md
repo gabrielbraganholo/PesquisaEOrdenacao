@@ -22,8 +22,6 @@ tempoFim = time.time()
 print("Tempo da rotina 1: ", (tempoFim - tempoInicio) , "s")
 ```
 
-## 
-
 
 # 03/08
 

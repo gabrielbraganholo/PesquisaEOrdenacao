@@ -2,14 +2,27 @@ package controller;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import models.Utilidades;
 import view.ExibicaoView;
 
+/**
+ * Classe responsável pelo controle da aplicação.
+ *
+ * Atua como intermediária entre Model e View no padrão MVC.
+ *
+ * Suas responsabilidades são:
+ * - Controlar o fluxo de execução.
+ * - Solicitar operações ao Model.
+ * - Enviar informações para a View.
+ */
 public class ListaController {
 
     private ExibicaoView view = new ExibicaoView();
 
+    /**
+     * Executa o processo de criação das listas
+     * e mede o tempo de execução de cada rotina.
+     */
     public void executar() {
 
         long tempoInicio, tempoFim;
