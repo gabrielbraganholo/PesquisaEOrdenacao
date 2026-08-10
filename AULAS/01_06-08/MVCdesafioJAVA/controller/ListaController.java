@@ -17,7 +17,7 @@ import view.ExibicaoView;
  */
 public class ListaController {
 
-    private ExibicaoView view = new ExibicaoView();
+    private final ExibicaoView view = new ExibicaoView();
 
     /**
      * Executa o processo de criação das listas
