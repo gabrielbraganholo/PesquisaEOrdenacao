@@ -1,6 +1,5 @@
-package models;
+package model;
 
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -10,27 +9,27 @@ import java.util.Random;
 public class Utilidades {
 
     /**
-     * Popula uma lista de inteiros com valores aleatórios
+     * Popula um vetor de inteiros com valores aleatórios
      * ou sequenciais de acordo com o parâmetro informado.
      *
-     * @param lista lista que receberá os valores gerados
+     * @param vetor vetor que receberá os valores gerados
      * @param quantidadeNumeros quantidade de números que serão adicionados
      * @param inicio valor inicial do intervalo de números
      * @param fim valor final do intervalo de números aleatórios
      * @param aleatorio define se a geração será aleatória (true)
      *                  ou sequencial (false)
      */
-    public static void popularLista(List<Integer> lista, long quantidadeNumeros, int inicio, int fim, boolean aleatorio) {
+    public static void popularVetor(int[] vetor, long quantidadeNumeros, int inicio, int fim, boolean aleatorio) {
 
         Random gerador = new Random();
 
         if (aleatorio) {
             for (long i = 0; i < quantidadeNumeros; i++) {
-                lista.add(gerador.nextInt(inicio, fim));
+                vetor[(int) i] = gerador.nextInt(inicio, fim);
             }
         } else {
-            for (long i = inicio; i <= quantidadeNumeros; i++) {
-                lista.add((int) i);
+            for (long i = 0; i < quantidadeNumeros; i++) {
+                vetor[(int) i] = inicio + (int) i;
             }
         }
     }

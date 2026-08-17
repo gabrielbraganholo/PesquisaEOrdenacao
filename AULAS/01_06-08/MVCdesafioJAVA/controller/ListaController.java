@@ -9,11 +9,6 @@ import view.ExibicaoView;
  * Classe responsável pelo controle da aplicação.
  *
  * Atua como intermediária entre Model e View no padrão MVC.
- *
- * Suas responsabilidades são:
- * - Controlar o fluxo de execução.
- * - Solicitar operações ao Model.
- * - Enviar informações para a View.
  */
 public class ListaController {
 
