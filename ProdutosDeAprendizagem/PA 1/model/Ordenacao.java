@@ -25,7 +25,7 @@ public class Ordenacao {
         } while (houveTroca);
 
         System.out.println("Quantidade comparações: " + qtdComparacoes);
-        System.out.println("Quantidade trocas: " + qtdTrocas + "\n");
+        System.out.println("Quantidade trocas: " + qtdTrocas);
     }
 
     public static void selectionSort(int[] vetor, long n) {
@@ -53,7 +53,7 @@ public class Ordenacao {
         }
 
         System.out.println("Quantidade comparações: " + qtdComparacoes);
-        System.out.println("Quantidade trocas: " + qtdTrocas + "\n");
+        System.out.println("Quantidade trocas: " + qtdTrocas);
     }
 
     public static void insertionSort(int[] vetor, long n) {
@@ -80,10 +80,10 @@ public class Ordenacao {
         }
 
         System.out.println("Quantidade comparações: " + qtdComparacoes);
-        System.out.println("Quantidade trocas: " + qtdTrocas + "\n");
+        System.out.println("Quantidade trocas: " + qtdTrocas);
     }
 
-    public static void cocktailShakerSort(int[] vetor, long n) {
+    public static void cocktailSort(int[] vetor, long n) {
         boolean houveTroca;
         int tmp;
         long i, ini = 0, fim = n - 1;
@@ -134,8 +134,9 @@ public class Ordenacao {
 
         } while (houveTroca && ini <= fim);
 
+
         System.out.println("Quantidade comparações: " + qtdComparacoes);
-        System.out.println("Quantidade trocas: " + qtdTrocas + "\n");
+        System.out.println("Quantidade trocas: " + qtdTrocas);
     }
 
 }

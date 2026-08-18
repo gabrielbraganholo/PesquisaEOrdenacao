@@ -20,40 +20,44 @@ public class ListaController {
 
         long tempoInicio, tempoFim;
 
-        int[] vetorAleatorio = new int[100000];
+        int[] vetorBase = new int[100000];
 
         tempoInicio = System.nanoTime();
-        Utilidades.popularVetor(vetorAleatorio, 100000, 100, 100000, true);
+        Utilidades.popularVetor(vetorBase, 100000, 100, 100000, true);
         tempoFim = System.nanoTime();
 
         view.exibirTempo("Popular lista aleatória", (tempoFim - tempoInicio) / 1000000);
 
-        
+
+        int[] vetorBubble = vetorBase.clone();
         tempoInicio = System.nanoTime();
-        Ordenacao.bubbleSort(vetorAleatorio, vetorAleatorio.length);
+        Ordenacao.bubbleSort(vetorBubble, vetorBubble.length);
         tempoFim = System.nanoTime();
 
         view.exibirTempo("Buble Sort", (tempoFim - tempoInicio) / 1000000);
 
 
+        int[] vetorInsertion = vetorBase.clone();
         tempoInicio = System.nanoTime();
-        Ordenacao.insertionSort(vetorAleatorio, vetorAleatorio.length);
+        Ordenacao.insertionSort(vetorInsertion, vetorInsertion.length);
         tempoFim = System.nanoTime();
 
         view.exibirTempo("Insertion Sort", (tempoFim - tempoInicio) / 1000000);
 
 
+        int[] vetorSelection = vetorBase.clone();
         tempoInicio = System.nanoTime();
-        Ordenacao.selectionSort(vetorAleatorio, vetorAleatorio.length);
+        Ordenacao.selectionSort(vetorSelection, vetorSelection.length);
         tempoFim = System.nanoTime();
 
         view.exibirTempo("Selection Sort", (tempoFim - tempoInicio) / 1000000);
 
 
+        int[] vetorCocktail = vetorBase.clone();
         tempoInicio = System.nanoTime();
-        Ordenacao.cocktailShakerSort(vetorAleatorio, vetorAleatorio.length);
+        Ordenacao.cocktailSort(vetorCocktail, vetorCocktail.length);
         tempoFim = System.nanoTime();
 
-        view.exibirTempo("Cocktail", (tempoFim - tempoInicio) / 1000000);
+        view.exibirTempo("Cocktail Sort", (tempoFim - tempoInicio) / 1000000);
     }
 }

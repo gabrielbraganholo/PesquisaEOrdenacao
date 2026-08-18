@@ -31,6 +31,6 @@ public class ExibicaoView {
      * @param tempo tempo de execução em milissegundos
      */
     public void exibirTempo(String rotina, long tempo) {
-        System.out.println("Tempo (ms) " + rotina + ": " + tempo);
+        System.out.println("Tempo (ms) " + rotina + ": " + tempo + "\n");
     }
 }
