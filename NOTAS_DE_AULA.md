@@ -1,3 +1,30 @@
+# 03/09
+
+## Ordenação ~= Organização => Otimização de Pesquisa
+- chave de ordenação ~= índice
+  - pode ser mais de 1 { caso seja mais de 1 necessita da implementação do Compare
+
+## Métodos de baixa complexidade, porém mais difíceis de implementar
+
+- Merge Sort (Intercalar)
+  - Recursivo
+  - Composto por dois métodos:
+    - merge -> recursivo
+    - intercalar -> ordenar no retorno do empilhamento
+  - OBS: O processo é baseado em divisões de estrutura recursivmente, sempre no meio
+  - melhor caso -> O(n log n)
+  - pior caso -> O(n log n)
+
+- Quick Sort (Pivo)
+  - Recursivo
+  - Composto por dois métodos:
+    - quick -> recursivo
+    - posicionar -> ordenar o pivo
+  - OBS: O processo é baseado em decisões de estrutura, recursivamente, porém obedecendo a posição do pivo
+  - melhor caso -> O(n log n)
+  - pior caso -> O(n²)
+
+
 # 10/08
 
 ## Algoritmos de Ordenação
